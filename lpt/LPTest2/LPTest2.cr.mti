@@ -1,0 +1,29 @@
+{C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest2/q1.v} {1 {vlog -work work -stats=none {C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest2\q1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module top_module
+
+Top level modules:
+	top_module
+
+} {} {}} {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest2/q2.v} {1 {vlog -work work -stats=none {C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest2\q2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module fab
+
+Top level modules:
+	fab
+
+} {} {}} {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest2/q1_tb.v} {1 {vlog -work work -stats=none {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest2/q1_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module q1_tb
+
+Top level modules:
+	q1_tb
+
+} {} {}} {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest2/q2_tb.v} {1 {vlog -work work -sv -stats=none {C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest2\q2_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module q2_check_tb
+
+Top level modules:
+	q2_check_tb
+
+} {} {}}

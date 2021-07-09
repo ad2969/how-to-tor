@@ -1,0 +1,8 @@
+{C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q2.v} {1 {vlog -work work -stats=none {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module q2_tb
+
+Top level modules:
+	q2_tb
+
+} {} {}}

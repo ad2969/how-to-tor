@@ -1,0 +1,27 @@
+{C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest3/Practice/tb.v} {1 {vlog -work work -stats=none {C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest3/Practice/q2.v} {1 {vlog -work work -stats=none {C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\q2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module top_module
+-- Compiling module decoder
+
+Top level modules:
+	top_module
+
+} {} {}} {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest3/Practice/mem.v} {1 {vlog -work work -stats=none {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest3/Practice/mem.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module LPT3RAM
+-- Compiling module vDFFE
+-- Compiling module vDFF
+
+Top level modules:
+	LPT3RAM
+	vDFFE
+	vDFF
+
+} {} {}}

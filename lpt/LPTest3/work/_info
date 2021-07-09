@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab8
+vdecoder
+Z0 !s110 1542239778
+!i10b 1
+!s100 _NYL469z4=V2dP?V6o7JG2
+I<3G>zWhiCdT7?:ICN=jYl1
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest3/Practice
+Z3 w1542239777
+Z4 8C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\q2.v
+Z5 FC:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\q2.v
+L0 103
+Z6 OV;L;10.3d;59
+r1
+!s85 0
+31
+Z7 !s108 1542239778.344000
+Z8 !s107 C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\q2.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\q2.v|
+!i113 1
+Z10 o-work work
+vLPT3RAM
+Z11 !s110 1542236629
+!i10b 1
+!s100 K6T[Q^>><MnQ]5O76PW5A1
+I9RO4Soz9>`_A@a@OA>HfL0
+R1
+R2
+Z12 w1510784722
+Z13 8C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest3/Practice/mem.v
+Z14 FC:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest3/Practice/mem.v
+L0 2
+R6
+r1
+!s85 0
+31
+Z15 !s108 1542236629.208000
+Z16 !s107 C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest3/Practice/mem.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest3/Practice/mem.v|
+!i113 1
+R10
+n@l@p@t3@r@a@m
+vtb
+!s110 1542239098
+!i10b 1
+!s100 4QOWaKPRLVn?FgTb`H?kJ1
+IaEIFQc^_=_MAXl27j8g1_2
+R1
+R2
+w1542239097
+8C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\tb.v
+FC:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1542239098.077000
+!s107 C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest3\Practice\tb.v|
+!i113 1
+R10
+vtop_module
+R0
+!i10b 1
+!s100 M=Izj@YVQXaSYjh;OCfP82
+ISL]LJEV9`[eS>6dL`A^6f2
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vvDFF
+R11
+!i10b 1
+!s100 zH28TlNE<m6mabdz9o9Qh0
+IW`0Ya8;<[NnJ?fk<2l[CC2
+R1
+R2
+R12
+R13
+R14
+L0 33
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+nv@d@f@f
+vvDFFE
+R11
+!i10b 1
+!s100 OoH:zi96jb<JYnc^R4KPC0
+INU_XZ[P64M]2^2?VV]P7h3
+R1
+R2
+R12
+R13
+R14
+L0 23
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+nv@d@f@f@e

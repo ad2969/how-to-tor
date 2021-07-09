@@ -1,0 +1,74 @@
+module top_module(clk, reset, in, out);
+  input clk, reset;
+  input [1:0] in;
+  output reg [2:0] out;
+
+  reg [2:0] next_out;
+
+  // define states used in state machine
+  `define A 3'b000
+  `define B 3'b001
+  `define C 3'b010
+  `define D 3'b011
+  `define E 3'b100
+
+  // declare states
+  reg[2:0] present_state;
+  reg[2:0] next_state;
+  
+  // always block that re-evaluates on every positive edge of clock
+  always @(posedge clk) begin
+    if(reset) begin
+      present_state = `A;
+      next_state = `A;
+    end // if reset
+    else begin
+      case(present_state)
+
+	`A: begin
+	  // out = 3'b001;
+	  if(in == 2'b10) begin next_state = `B; next_out = 3'b011; end
+	  else begin next_state = `A; next_out = 3'b001; end
+	end
+
+	`B: begin
+	  // out = 3'b011;
+	  if(in == 2'b01) begin next_state = `C; next_out = 3'b110; end
+	  else begin next_state = `B; next_out = 3'b011; end
+	end
+
+	`C: begin
+	  // out = 3'b110;
+	  next_state = `D;
+	  next_out = 3'b010;
+	end
+
+	`D: begin
+	  if(in == 2'b10) begin next_state = `C; next_out = 3'b110; end
+	  else if(in == 2'b01) begin next_state = `B; next_out = 3'b011; end
+	  else if(in == 2'b00) begin next_state = `E; next_out = 3'b011; end
+	  else if(in == 2'b11) begin next_state = `A; next_out = 3'b001; end
+	  else begin next_state = `D; next_state = 3'b010; end
+	  // out = 3'b010;
+	end
+
+	`E: begin
+	  if(in == 2'b10) begin next_state = `A; next_out = 3'b001; end
+	  else begin present_state = `E; next_out = 3'b011; end
+	  // out = 3'b011;
+	end
+
+	default: begin // default state is "reset" so that the first time the state initializes it starts at "reset"
+	  present_state = `A;
+	  next_state = `A;
+	  next_out = 3'b001;
+	end
+
+      endcase // cases for present_state
+
+    end // if not reset
+    present_state = next_state;
+    out = next_out;
+  end // always block
+  
+endmodule

@@ -1,0 +1,24 @@
+# vsim detect_tb 
+# Start time: 17:51:53 on Oct 05,2018
+# Loading work.detect_tb
+# Loading work.detect_cover
+add wave  \
+sim:/detect_tb/inn \
+sim:/detect_tb/inn2 \
+sim:/detect_tb/final
+add wave  \
+sim:/detect_tb/dut/ain \
+sim:/detect_tb/dut/bin \
+sim:/detect_tb/dut/f \
+sim:/detect_tb/dut/checkain \
+sim:/detect_tb/dut/fdraft \
+sim:/detect_tb/dut/checkall
+run -all
+# final is 000000
+# final is 110000
+# final is 000010
+# final is 000000
+# final is 111010
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/wave.do}
+# End time: 17:57:00 on Oct 05,2018, Elapsed time: 0:05:07
+# Errors: 0, Warnings: 0

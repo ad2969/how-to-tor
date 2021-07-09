@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab4
+vdetect_cover
+Z0 !s110 1538787088
+!i10b 1
+!s100 j[f8U019no]4mUmn0UA@I0
+IE<7H:71HL<:P^J@R3I2VF1
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1
+Z3 w1538616333
+Z4 8C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q1.v
+Z5 FC:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q1.v
+L0 5
+Z6 OV;L;10.3d;59
+r1
+!s85 0
+31
+Z7 !s108 1538787088.661000
+Z8 !s107 C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q1.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q1.v|
+!i113 1
+Z10 o-work work
+vdetect_tb
+R0
+!i10b 1
+!s100 5dN7j33Uk3UmHR2XTS[280
+IGcEKld<m[96g_HbHaN=2I3
+R1
+R2
+R3
+R4
+R5
+L0 26
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vq2_tb
+R0
+!i10b 1
+!s100 EcokWNGW5]8aTYU3fPJKa1
+I=1ZRHL1I=hIAldXLI;ZQ83
+R1
+R2
+w1538616463
+8C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q2.v
+FC:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q2.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1538787088.558000
+!s107 C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest1/q2.v|
+!i113 1
+R10

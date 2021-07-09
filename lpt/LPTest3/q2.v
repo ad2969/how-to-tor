@@ -1,0 +1,111 @@
+module top_module(clk,reset,pc);
+  `define Reset 3'b000
+  `define IF 3'b001
+  `define Loada 3'b010
+  `define Loadb 3'b011
+  `define Write 3'b100
+  `define UpdatePC 3'b101
+  `define IF2 3'b110
+  
+  input clk;
+  input reset;
+  output [2:0] pc;
+  
+  // input value instantiations
+  wire [2:0] A, B, C;
+  wire [8:0] valueA, valueB;
+  wire [8:0] dout;
+  reg [2:0] present_state;
+  reg loada, loadb, load_ir, write;
+  wire [8:0] oin;
+
+  // decoder instnatiation
+  decoder ID(oin,A,B,C);
+
+  // pc instantiations
+  reg reset_pc, load_pc, one_pc;
+  wire [2:0] pc_addone = pc + 1'b1;
+  wire [2:0] added_pc = one_pc? pc_addone : C;
+  wire [2:0] next_pc = reset_pc ? 9'b0 : added_pc; 
+  
+  // computations
+  reg [2:0] addr;
+  wire [8:0] newB;
+  assign newB = valueB - valueA;
+  
+  // other module instantiations
+  LPT3RAM MEM(clk,addr,write,newB,dout);
+  vDFFE #(3) prog(clk,load_pc,next_pc,pc);
+  vDFFE #(9) va(clk,loada,dout,valueA);
+  vDFFE #(9) vb(clk,loadb,dout,valueB);
+  vDFFE #(9) ir(clk,load_ir,dout,oin);
+
+  // always block for state machine
+  always @(posedge clk) begin
+    if(reset) begin
+      present_state = `Reset;
+      reset_pc = 1'b1;
+      load_pc = 1'b1;
+    end
+    else begin
+      case(present_state)
+        `Reset: begin
+          present_state = `IF;
+          reset_pc = 1'b0;
+          load_pc = 1'b0;
+          write = 1'b0;
+          one_pc = 1'b1;
+	  addr = pc;
+	  load_ir = 1'b1;
+	  loada = 1'b0;
+	  loadb = 1'b0;
+        end
+        `IF: begin
+          present_state = `Loada;
+          addr = A;
+          load_ir = 1'b0;
+          write = 1'b0;
+        end
+        `Loada: begin
+          present_state = `Loadb;
+          addr = A;
+          loada = 1'b1;
+        end
+        `Loadb: begin
+          present_state = `Write;
+          addr = B;
+          loada = 1'b0;
+          loadb = 1'b1;
+        end
+        `Write: begin
+          present_state = `UpdatePC;
+          write = 1'b1;
+          loadb = 1'b0;
+        end
+        `UpdatePC: begin
+          if(newB < 0)  begin
+            one_pc = 1'b0;
+          end
+          else begin
+            one_pc = 1'b1;
+          end
+          load_pc = 1'b1;
+          write = 1'b0; 
+	  present_state = `Reset;
+	  addr = pc;
+        end
+        default: present_state = `Reset;
+      endcase
+    end
+  end
+endmodule
+
+module decoder(in,a,b,c);
+  input [8:0] in;
+  output reg [2:0] a, b, c;
+  always @(*) begin
+    a = in[8:6];
+    b = in[5:3];
+    c = in[2:0];
+  end
+endmodule

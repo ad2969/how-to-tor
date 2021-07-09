@@ -1,0 +1,19 @@
+# Reading Z:/Academic/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/Clare/OneDrive/[UBC] Undegraduate Sophomore/CPEN211 (Aamodt, Tor)/Lab Proficiency Test/LPTest2/LPTest2.mpf}
+# Loading project LPTest2
+# Compile of q2_tb.v was successful.
+vsim -gui q2_check_tb
+# vsim -gui C:\Users\Clare\OneDrive\[UBC] Undegraduate Sophomore\CPEN211 (Aamodt, Tor)\Lab Proficiency Test\LPTest2\LPTest2.mpf 
+# Start time: 18:50:23 on Oct 31,2018
+# Loading sv_std.std
+# Loading work.q2_check_tb
+# Loading work.fab
+run -all
+break
+# invoked "break" outside of a loop
+add wave -position insertpoint sim:/q2_check_tb/*
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 18:51:34 on Oct 31,2018, Elapsed time: 0:01:11
+# Errors: 1, Warnings: 0
